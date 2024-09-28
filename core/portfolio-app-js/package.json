@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-app",
+  "version": "1.0.0",
+  "description": "Portfolio App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server --baseDir=src",
+    "start": "browser-sync start --server 'src' --files 'src/*.html, src/css/*.css, src/js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damigreen"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "app",
+    "portfolio"
+  ],
+  "author": "Damilola Faseun",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "lite-server": "^2.6.1"
+  }
+}

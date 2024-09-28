@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("/assets/fonts/SFMono-Bold.otf") format("woff2"),
+    url("/assets/fonts/RobotoFlex.woff") format("woff");
+  font-weight: 100 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-Heavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-HeavyItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono-SemiboldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FiraCode";
+  font-weight: 100 700;
+  src: url("../assets/fonts/FiraCode-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode";
+  font-weight: 300;
+  src: url("../assets/fonts/FiraCode-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode";
+  font-weight: 400;
+  src: url("../assets/fonts/FiraCode-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode";
+  font-weight: 500;
+  src: url("../assets/fonts/FiraCode-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode";
+  font-weight: 600;
+  src: url("../assets/fonts/FiraCode-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode";
+  font-weight: 700;
+  src: url("../assets/fonts/FiraCode-Bold.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../assets/images/lake-mountains-rocks.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-weight: 700; /* Bold */
+}
+
+p {
+  font-weight: 400; /* Regular */
+}
+
+small {
+  font-weight: 300; /* Light */
+}
