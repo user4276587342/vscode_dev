@@ -1,0 +1,521 @@
+knapsack algorithm dp
+else if weights[index]<target weights[index 5 true
+index 4 index-1 3 target value[index] 2 10 matrixDP {}
+else if weights[index]<target weights[index 2 true
+index 3 index-1 2 target value[index] 3 10 matrixDP {}
+else if weights[index]<target weights[index 4 true
+index 2 index-1 1 target value[index] 5 10 matrixDP {}
+else if weights[index]<target weights[index 2 true
+index 1 index-1 0 target value[index] 3 10 matrixDP {}
+else if weights[index]<target weights[index 1 true
+index 0 index-1 -1 target value[index] 5 10 matrixDP {}
+index and target less than 0
+setting matrix dp -1-10 -> undefined
+0
+index and target less than 0
+setting matrix dp -1-9 -> undefined
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-10 -> undefined
+5
+else if weights[index]<target weights[index 1 true
+index 0 index-1 -1 target value[index] 5 8 matrixDP { '-1-10': 0, '-1-9': 0, '0-10': 5 }
+index and target less than 0
+setting matrix dp -1-8 -> undefined
+0
+index and target less than 0
+setting matrix dp -1-7 -> undefined
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-8 -> undefined
+5
+current 5
+currentPlusOther 8
+result 8
+setting matrix dp 1-10 -> undefined
+8
+else if weights[index]<target weights[index 2 true
+index 1 index-1 0 target value[index] 3 6 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8
+}
+else if weights[index]<target weights[index 1 true
+index 0 index-1 -1 target value[index] 5 6 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8
+}
+index and target less than 0
+setting matrix dp -1-6 -> undefined
+0
+index and target less than 0
+setting matrix dp -1-5 -> undefined
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-6 -> undefined
+5
+else if weights[index]<target weights[index 1 true
+index 0 index-1 -1 target value[index] 5 4 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5
+}
+index and target less than 0
+setting matrix dp -1-4 -> undefined
+0
+index and target less than 0
+setting matrix dp -1-3 -> undefined
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-4 -> undefined
+5
+current 5
+currentPlusOther 8
+result 8
+setting matrix dp 1-6 -> undefined
+8
+current 8
+currentPlusOther 13
+result 13
+setting matrix dp 2-10 -> undefined
+13
+else if weights[index]<target weights[index 4 true
+index 2 index-1 1 target value[index] 5 8 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13
+}
+else if weights[index]<target weights[index 2 true
+index 1 index-1 0 target value[index] 3 8 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13
+}
+current 5
+currentPlusOther 8
+result 8
+setting matrix dp 1-8 -> undefined
+8
+else if weights[index]<target weights[index 2 true
+index 1 index-1 0 target value[index] 3 4 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8
+}
+else if weights[index]<target weights[index 1 true
+index 0 index-1 -1 target value[index] 5 2 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8
+}
+index and target less than 0
+setting matrix dp -1-2 -> undefined
+0
+index and target less than 0
+setting matrix dp -1-1 -> undefined
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-2 -> undefined
+5
+current 5
+currentPlusOther 8
+result 8
+setting matrix dp 1-4 -> undefined
+8
+current 8
+currentPlusOther 13
+result 13
+setting matrix dp 2-8 -> undefined
+13
+current 13
+currentPlusOther 16
+result 16
+setting matrix dp 3-10 -> undefined
+16
+else if weights[index]<target weights[index 2 true
+index 3 index-1 2 target value[index] 3 5 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16
+}
+else if weights[index]<target weights[index 4 true
+index 2 index-1 1 target value[index] 5 5 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16
+}
+else if weights[index]<target weights[index 2 true
+index 1 index-1 0 target value[index] 3 5 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16
+}
+else if weights[index]<target weights[index 1 true
+index 0 index-1 -1 target value[index] 5 5 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16
+}
+index and target less than 0
+setting matrix dp -1-5 -> 0
+0
+index and target less than 0
+setting matrix dp -1-4 -> 0
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-5 -> undefined
+5
+else if weights[index]<target weights[index 1 true
+index 0 index-1 -1 target value[index] 5 3 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16,
+  '0-5': 5
+}
+index and target less than 0
+setting matrix dp -1-3 -> 0
+0
+index and target less than 0
+setting matrix dp -1-2 -> 0
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-3 -> undefined
+5
+current 5
+currentPlusOther 8
+result 8
+setting matrix dp 1-5 -> undefined
+8
+else if weights[index] > target weights[index] 2 true
+index 1 index-1 0 target 1 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16,
+  '0-5': 5,
+  '0-3': 5,
+  '1-5': 8
+}
+else if weights[index]<target weights[index 1 false
+index 0 index-1 -1 target value[index] 5 1 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16,
+  '0-5': 5,
+  '0-3': 5,
+  '1-5': 8
+}
+index and target less than 0
+setting matrix dp -1-1 -> 0
+0
+index and target less than 0
+setting matrix dp -1-0 -> undefined
+0
+current 0
+currentPlusOther 5
+result 5
+setting matrix dp 0-1 -> undefined
+5
+5
+setting matrix dp 1-1 -> undefined
+5
+current 8
+currentPlusOther 10
+result 10
+setting matrix dp 2-5 -> undefined
+10
+else if weights[index] > target weights[index] 4 true
+index 2 index-1 1 target 3 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16,
+  '0-5': 5,
+  '0-3': 5,
+  '1-5': 8,
+  '-1-0': 0,
+  '0-1': 5,
+  '1-1': 5,
+  '2-5': 10
+}
+else if weights[index]<target weights[index 2 true
+index 1 index-1 0 target value[index] 3 3 matrixDP {
+  '-1-10': 0,
+  '-1-9': 0,
+  '0-10': 5,
+  '-1-8': 0,
+  '-1-7': 0,
+  '0-8': 5,
+  '1-10': 8,
+  '-1-6': 0,
+  '-1-5': 0,
+  '0-6': 5,
+  '-1-4': 0,
+  '-1-3': 0,
+  '0-4': 5,
+  '1-6': 8,
+  '2-10': 13,
+  '1-8': 8,
+  '-1-2': 0,
+  '-1-1': 0,
+  '0-2': 5,
+  '1-4': 8,
+  '2-8': 13,
+  '3-10': 16,
+  '0-5': 5,
+  '0-3': 5,
+  '1-5': 8,
+  '-1-0': 0,
+  '0-1': 5,
+  '1-1': 5,
+  '2-5': 10
+}
+current 5
+currentPlusOther 8
+result 8
+setting matrix dp 1-3 -> undefined
+8
+8
+setting matrix dp 2-3 -> undefined
+8
+current 10
+currentPlusOther 11
+result 11
+setting matrix dp 3-5 -> undefined
+11
+current 16
+currentPlusOther 13
+result 16
+setting matrix dp 4-10 -> undefined
+16
+16

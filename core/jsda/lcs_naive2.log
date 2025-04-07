@@ -1,0 +1,54 @@
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 3 C str1[str1Length - 1] str2[str2Length - 1] D
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 3 str2Length 2 C str1[str1Length - 1] str2[str2Length - 1] C
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 1 B str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+recursive call y -> 1
+recursive call x -> 1
+return value -> 1 + x 2
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 B str1[str1Length - 1] str2[str2Length - 1] D
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 B str1[str1Length - 1] str2[str2Length - 1] C
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 1 B str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] C
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] D
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] C
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 1
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 1
+recursive call y -> 1
+recursive call y -> 2
+2

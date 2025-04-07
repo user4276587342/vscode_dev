@@ -1,0 +1,754 @@
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 6 str2Length 7 B str1[str1Length - 1] str2[str2Length - 1] B
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 5 str2Length 6 A str1[str1Length - 1] str2[str2Length - 1] Y
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 5 str2Length 5 A str1[str1Length - 1] str2[str2Length - 1] A
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 4 str2Length 4 T str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 4 str2Length 3 T str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 3 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+recursive call x -> 1
+return value -> 1 + x 2
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 3 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 4 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+recursive call y -> 2
+recursive call x -> 2
+return value -> 1 + x 3
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 4 str2Length 6 T str1[str1Length - 1] str2[str2Length - 1] Y
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 4 str2Length 5 T str1[str1Length - 1] str2[str2Length - 1] A
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 4 str2Length 4 T str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 4 str2Length 3 T str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 3 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+recursive call x -> 1
+return value -> 1 + x 2
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 3 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 4 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+recursive call y -> 2
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 5 G str1[str1Length - 1] str2[str2Length - 1] A
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 3 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 4 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 5 G str1[str1Length - 1] str2[str2Length - 1] A
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 4 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 5 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+recursive call y -> 1
+recursive call y -> 1
+recursive call y -> 2
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 6 G str1[str1Length - 1] str2[str2Length - 1] Y
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 5 G str1[str1Length - 1] str2[str2Length - 1] A
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 3 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 3 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 4 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 5 G str1[str1Length - 1] str2[str2Length - 1] A
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 4 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 5 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+recursive call y -> 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 6 G str1[str1Length - 1] str2[str2Length - 1] Y
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 5 G str1[str1Length - 1] str2[str2Length - 1] A
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 4 G str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 3 G str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 2 str2Length 2 G str1[str1Length - 1] str2[str2Length - 1] X
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 2 str2Length 1 G str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 4 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 3 A str1[str1Length - 1] str2[str2Length - 1] T
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 2 A str1[str1Length - 1] str2[str2Length - 1] X
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 1 A str1[str1Length - 1] str2[str2Length - 1] G
+str1 length is 0 or str 2 length is 0 return 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 0
+recursive call y -> 1
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 5 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+recursive call y -> 1
+else str1[str1Length - 1] != str2[str2Length - 1]
+str1Length 1 str2Length 6 A str1[str1Length - 1] str2[str2Length - 1] Y
+str1[str1Length - 1] == str2[str2Length - 1]
+str1Length 1 str2Length 5 A str1[str1Length - 1] str2[str2Length - 1] A
+str1 length is 0 or str 2 length is 0 return 0
+recursive call x -> 0
+return value -> 1 + x 1
+str1 length is 0 or str 2 length is 0 return 0
+recursive call y -> 1
+recursive call y -> 1
+recursive call y -> 1
+recursive call y -> 2
+recursive call y -> 3
+recursive call x -> 3
+return value -> 1 + x 4
+4

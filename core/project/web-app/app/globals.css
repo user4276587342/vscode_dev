@@ -1,0 +1,106 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Variables for Light Theme */
+:root {
+  --background: #ffffff; /* Main background */
+  --foreground: #171717; /* Primary text color */
+  --primary: #4A90E2; /* Main brand color (blue) */
+  --secondary: #EAEAEA; /* Light gray background */
+  --accent: #F9A826; /* Accent color (yellow-orange) */
+  --border: #d1d5db; /* Border color */
+  --muted: #6b7280; /* Muted text color */
+  --hover: #E5E7EB; /* Hover background */
+  --shadow: rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Dark Mode Support */
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary: #3B82F6;
+    --secondary: #1F2937;
+    --accent: #FACC15;
+    --border: #374151;
+    --muted: #9CA3AF;
+    --hover: #374151;
+    --shadow: rgba(0, 0, 0, 0.2);
+  }
+}
+*/
+
+/* Global Styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+}
+
+/* Buttons */
+.button {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+.button:hover {
+  background-color: var(--hover);
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--secondary);
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+/* Cards */
+.card {
+  background-color: var(--secondary);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 2px 2px 10px var(--shadow);
+}
+
+/* Input Fields */
+.input {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  padding: 8px;
+  border-radius: 5px;
+}
+.input:focus {
+  outline: 2px solid var(--primary);
+}
+
+/* Footer */
+.footer {
+  background: var(--secondary);
+  padding: 20px;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
